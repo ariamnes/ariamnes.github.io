@@ -12,7 +12,7 @@ body{
     display:block;
     margin:auto;
     transition:.5s filter;
-    cursor:not-allowed;
+    cursor:pointer;
   }
 
     #center-image:hover{
