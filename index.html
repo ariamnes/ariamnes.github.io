@@ -2,14 +2,6 @@
 <html>
 	<head>
 		<title>meepmerp</title>
-	<script src="jquery-3.2.1.min.js"></script>
-		<audio id="meepmerp" src="meepmerp.wav" autostart="false" hidden="true"></audio>
-<script type="text/javascript">
-$('#center-image').click(function(){
-   $document.getElementById('iamanaudioelement').currentTime = 0;
-});
-</script>
-		
 		<style type="text/css">
 		body{
 			background-color:black;
@@ -60,7 +52,13 @@ $('#center-image').click(function(){
 
 	<body>
 		<div id="center-image-container">
-			<img src="ancient.png" id="center-image">
+			<img src="ancient.png" id="center-image" onclick="meepMerp()">
+			<script type="text/javascript">
+				function meepMerp(){
+					document.getElementById('meepmerp').currentTime = 0;
+					document.getElementById('meepmerp').play();
+				}
+			</script>
 		</div>
 		
 		<div id="center-caption-container">
