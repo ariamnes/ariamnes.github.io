@@ -12,6 +12,7 @@ body{
     display:block;
     margin:auto;
     transition:.5s filter;
+    cursor:not-allowed;
   }
 
     #center-image:hover{
