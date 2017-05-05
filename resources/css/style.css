@@ -10,6 +10,13 @@ body{
   margin-left:5%;
   margin-right:5%;
 }
+  #center-container p{
+    color:white;
+  }
+  #center-container a{
+    color:white;
+  }
+
   #center-image{
     display:block;
     margin:auto;
