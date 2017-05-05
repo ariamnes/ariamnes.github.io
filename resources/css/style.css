@@ -24,15 +24,3 @@ body{
       filter: drop-shadow(1px 1px 10px red)
               drop-shadow(-1px -1px 10px red);
     }
-
-#center-caption-container{
-  color:white;
-  font-family:sans-serif;
-  font-size:25px;
-  width:100%;
-}
-  #center-caption{
-    display:block;
-    margin-auto;
-    text-align:center;
-  }
