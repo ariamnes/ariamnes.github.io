@@ -2,15 +2,15 @@
 <html>
 	<head>
 		<script src="jquery-3.2.1.min.js"></script>
-<script type="text/javascript">
-$(document).ready( function() {
-$('#center-image').click(function(){
-   $('body').append('<embed src="meepmerp.wav" autostart="true" hidden="true"></embed>');
-});
-});
-</script>
+		<script type="text/javascript">
+			$(document).ready( function() {
+				$('#center-image').click(function(){
+				   $('body').append('<embed src="meepmerp.wav" autostart="true" hidden="true"></embed>');
+			});
+			});
+		</script>
 		
-		<style type="text/css">
+	<style type="text/css">
 		body{
 			background-color:black;
 		}
@@ -58,21 +58,18 @@ $('#center-image').click(function(){
 		
 		#meepmerp{
 		}
-		</style>
-	</head>
-
-	<body>
-		<div id="center-image-container">
-			<img src="ancient.png" id="center-image" onclick="meepMerp()">
-			<script type="text/javascript">
-				function meepMerp(){
-					document.getElementByID("meepmerp").play();
-				};
-			</script>
-		</div>
+	</style>
 		
-		<div id="center-caption-container">
-			<span id="center-caption">THIS PAGE IS UNDER CONSTRUCTION</span>
-		</div>
-	</body>
+</head>
+
+<body>
+	<div id="center-image-container">
+		<img src="ancient.png" id="center-image">
+	</div>
+		
+	<div id="center-caption-container">
+		<span id="center-caption">THIS PAGE IS UNDER CONSTRUCTION</span>
+	</div>
+</body>
+	
 </html>
