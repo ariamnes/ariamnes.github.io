@@ -17,6 +17,7 @@ body{
     #center-image:hover{
       filter: drop-shadow(1px 1px 10px #137728)
               drop-shadow(-1px -1px 10px #137728);
+    transition:.5s filter;
     }
     #center-image:active{
       transition:.2s filter;
