@@ -3,10 +3,10 @@
 	<head>
 		<title>meepmerp</title>
 	<script src="jquery-3.2.1.min.js"></script>
-<embed id="meepmerp" src="meepmerp.wav" autostart="false" hidden="true"></embed>
+<!--embed id="meepmerp" src="meepmerp.wav" autostart="false" hidden="true"></embed-->
 <script type="text/javascript">
 $('#center-image').click(function(){
-   $('body').play('#meepmerp');
+   $('body').append('<embed src="meepmerp.wav" autostart="true" hidden="true"></embed>');
 });
 </script>
 		
