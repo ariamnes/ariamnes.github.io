@@ -13,6 +13,7 @@ body{
   #center-container p{
     color:white;
     text-align:center;
+    font-size:25px;
   }
   #center-container a{
     color:#f3bdf9;
