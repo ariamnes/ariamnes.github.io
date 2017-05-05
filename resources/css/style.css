@@ -14,7 +14,10 @@ body{
     color:white;
   }
   #center-container a{
-    color:white;
+    color:#f3bdf9;
+  }
+  #center-container a:visited{
+    color:#f3bdf9;
   }
 
   #center-image{
