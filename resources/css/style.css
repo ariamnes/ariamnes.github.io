@@ -23,6 +23,8 @@ body{
   }
 
   #center-image{
+      filter: drop-shadow(1px 1px 1px #137728)
+              drop-shadow(-1px -1px 10px #137728);
     display:block;
     margin:auto;
     cursor:pointer;
@@ -37,8 +39,8 @@ body{
   }
 
     #center-image:hover{
-      filter: drop-shadow(1px 1px 10px #137728)
-              drop-shadow(-1px -1px 10px #137728);
+      filter: drop-shadow(2px 2px 10px #137728)
+              drop-shadow(-2px -2px 10px #137728);
       transition-property:filter;
         -webkit-transition-property:filter;
         -moz-transition-property:filter;
