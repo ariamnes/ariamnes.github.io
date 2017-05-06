@@ -50,3 +50,15 @@ body{
         -moz-transition-duration:.5s;
         -o-transition-duration:.5s;
     }
+    #center-image:active{
+      transition-property:filter;
+        -webkit-transition-property:filter;
+        -moz-transition-property:filter;
+        -o-transition-property:filter;
+      transition-duration:.2s;
+        -webkit-transition-duration:.2s;
+        -moz-transition-duration:.2s;
+        -o-transition-duration:.2s;
+      filter: drop-shadow(1px 1px 10px red)
+              drop-shadow(-1px -1px 10px red);
+    }
