@@ -28,7 +28,7 @@ body{
     cursor:pointer;
       filter: drop-shadow(1px 1px 5px #137728)
               drop-shadow(-1px -1px 5px #137728);
-    transition-property:filter:drop-shadow;
+    transition-property:filter;
       -webkit-transition-property:filter:;
       -moz-transition-property:filter;
       -o-transition-property:filter;
