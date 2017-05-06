@@ -26,6 +26,9 @@ body{
     display:block;
     margin:auto;
     transition:.5s filter;
+    -webkit-transition:.5s filter;
+    -moz-transition:.5s filter;
+    -o-transition:.5s filter;
     cursor:pointer;
   }
 
@@ -33,9 +36,15 @@ body{
       filter: drop-shadow(1px 1px 10px #137728)
               drop-shadow(-1px -1px 10px #137728);
     transition:.5s filter;
+      -webkit-transition:.5s filter;
+      -moz-transition:.5s filter;
+      -o-transition:.5s filter;
     }
     #center-image:active{
       transition:.2s filter;
+      -webkit-transition:.2s filter;
+      -moz-transition:.2s filter;
+      -o-transition:.2s filter;
       filter: drop-shadow(1px 1px 10px red)
               drop-shadow(-1px -1px 10px red);
     }
