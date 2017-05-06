@@ -32,21 +32,17 @@ body{
       -webkit-transition-property:filter:;
       -moz-transition-property:filter;
       -o-transition-property:filter;
+    transition-duration:0s;
+      -webkit-transition-duration:0s;
+      -moz-transition-duration:0s;
+      -o-transition-duration:0s;
   }
 
     #center-image:hover{
       filter: drop-shadow(2px 2px 10px #137728)
               drop-shadow(-2px -2px 10px #137728);
-    transition-duration:.5s;
-      -webkit-transition-duration:.5s;
-      -moz-transition-duration:.5s;
-      -o-transition-duration:.5s;
     }
     #center-image:active{
       filter: drop-shadow(2px 2px 20px red)
               drop-shadow(-2px -2px 20px red);
-    transition-duration:0s;
-      -webkit-transition-duration:0s;
-      -moz-transition-duration:0s;
-      -o-transition-duration:0s;
     }
