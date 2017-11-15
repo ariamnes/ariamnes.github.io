@@ -1,0 +1,23 @@
+<!--THIS IS GOING TO BE A PAGE WHERE USERS CAN PURCHASE PHOTO PRINTS-->
+<html>
+
+<head>
+<style type="text/css">
+	
+</style>
+</head>
+
+<body>
+<div>hopefully this is here!</div>
+<section id="header">
+</section>
+<section id="main">
+	<div id="photos"> <!--THIS SECTION CONTAINS THE ACTUAL PHOTOS-->
+	</div>
+</section>
+<section id="footer">
+</section>
+<script type="text/javascript" src="//widget.fotomoto.com/stores/script/38e3a1b48804e6f49764b5ddf3f708fc0b760bdd.js"></script><noscript>If Javascript is disabled in your browser, to place orders please visit the page where I <a href="http://my.fotomoto.com/store/38e3a1b48804e6f49764b5ddf3f708fc0b760bdd">sell my photos</a>, powered by <a href="http://my.fotomoto.com/">Fotomoto</a>.</noscript>
+</body>
+
+</html>
